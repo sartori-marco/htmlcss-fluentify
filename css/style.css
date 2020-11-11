@@ -1,0 +1,78 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*fine regole generali */
+.container{
+  width: 80%;
+  height: 1000px;
+  background-color: green;
+  margin: auto;
+}
+
+header{
+  height: 500px;
+  width: 1200px;
+  background-color: black;
+  margin: auto;
+}
+
+.header-top{
+  height: 100px;
+  width: 1200px;
+  background-color: red;
+  margin: auto;
+}
+
+.logo-header{
+  height: 100px;
+  width: 20%;
+  background-color: yellow;
+}
+
+.nav-left{
+  height: 100%;
+  width: 60%;
+
+}
+
+.nav-right{
+  height: 100%;
+  width: 20%;
+  background-color: blue;
+}
+/* fine header top */
+/* inizio header bottom */
+.jumbotron {
+  height: 500px;
+  width: 1200px;
+  background-color: pink;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+/* end */

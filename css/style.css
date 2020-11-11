@@ -65,12 +65,13 @@ header{
   height: 100%;
   width: 50%;
   background-color: violet;
-  padding: 20px;
+  padding: 30px;
+
 }
 
 .nav-left li {
   display: inline-block;
-  /* padding: 20px; */
+  border: auto;
 
 }
 
@@ -89,7 +90,7 @@ header{
 
 .nav-right li {
   display: inline-block;
-  padding: 20px;
+  line-height: 80px;
 
 }
 
@@ -111,15 +112,17 @@ header{
 }
 .jumbotron {
   height: 500px;
-  width: 1215px;
-  margin: auto;
   position: relative;
+  /* background-color: pink; */
+  margin: auto;
+  width: 1370px;
 }
 
-.jumbotron h1{
+.testo-jumbotron{
   position: absolute;
+  left: 0;
   top: 50%;
-  bottom: 50%;
+  transform: translateY(-50%);
 }
 
 

@@ -19,7 +19,11 @@
   clear: both;
 }
 
-
+.border-green{
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+}
 
 /*fine regole generali */
 
@@ -50,7 +54,7 @@ header{
 .header-top{
   height: 100px;
   width: 90%;
-  background-color: black;
+  /* background-color: black; */
   margin: auto;
 }
 
@@ -58,14 +62,15 @@ header{
   height: 100px;
   width: 10%;
   padding: 20px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .nav-left{
   height: 100%;
   width: 50%;
-  background-color: violet;
+  /* background-color: violet; */
   padding: 30px;
+
 
 }
 
@@ -82,10 +87,17 @@ header{
 
 }
 
+.nav-right .border-blue{
+  padding: 10px;
+  border: solid white 2px;
+
+}
+
+
 .nav-right{
   height: 100%;
   width: 40%;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .nav-right li {
@@ -102,14 +114,9 @@ header{
 }
 
 
-
-
-
 /* fine header top */
 /* inizio header bottom */
-.header-bottom{
 
-}
 .jumbotron {
   height: 500px;
   position: relative;
@@ -124,6 +131,61 @@ header{
   top: 50%;
   transform: translateY(-50%);
 }
+
+.testo-jumbotron h1{
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  width: 50%;
+}
+
+.testo-jumbotron a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+
+}
+/* fine header */
+/* inizio main */
+.sfondo-grey{
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+.sfondo-grey h2{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.sfondo-grey h3{
+  text-align: center;
+  padding: 20px;
+  color: lightgrey;
+}
+
+
+
+.main-container{
+  width: 1522px;
+  height: 500px;
+  background-color: red;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.main-container .foto-main{
+  width: 500px;
+  height: 150px;
+  margin: auto;
+
+}
+
+
+
+
+
 
 
 
